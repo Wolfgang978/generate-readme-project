@@ -7,8 +7,8 @@
 4. [License](#License)
 5. [Credits](#Credits)
 6. [Tests](#Tests)
-7. [Github](#paragraph1)
-8. [Contact Me](#Contact Me)
+7. [Github](#Github)
+8. [Contact Me](#ContactMe)
 
   
 ![badge](https://img.shields.io/badge/license-unlicense-brightgreen)
@@ -37,7 +37,7 @@ This project is licensed by The Unlicense.
   ## Tests
   No testing.
 
-  ## Github <a name="paragraph1"></a>
+  ## Github 
  Here is the link to my github account [Wolfgang978](https://github.com/Wolfgang978)
   
   

@@ -2,8 +2,8 @@
 
   # Readme Generator
 1. [Description](#Description)
-2. [Install Instructions](#Install Instructions)
-3. [How to use this app](#How to use this app)
+2. [Install Instructions](#Install-Instructions)
+3. [How to use this app](#How-to-use-this-app)
 4. [License](#License)
 5. [Credits](#Credits)
 6. [Tests](#Tests)
@@ -44,3 +44,6 @@ This project is licensed by The Unlicense.
   ## Contact Me
   If you have any further questions about the application you can reach me at, 18wrightm@gmail.com
 
+  ## Screenshot
+  ![A picture of my working Readme generator in vscode.](./assets/ReadmeappSS.png)
+ 

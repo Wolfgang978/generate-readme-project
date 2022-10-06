@@ -94,7 +94,17 @@ function generateMarkdown(data) {
 
 
   return `
+
   # ${data.appName}
+1. [Description](#Description)
+2. [Install Instructions](#Install Instructions)
+3. [How to use this app](#How to use this app)
+4. [License](#License)
+5. [Credits](#Credits)
+6. [Tests](#Tests)
+7. [Github](#Github)
+8. [Contact Me](#Contact Me)
+
   ${renderLicenseBadge(data.license)}
   
   
@@ -110,13 +120,13 @@ function generateMarkdown(data) {
   ${renderLicenseSection(data.license)}
   
   ## Credits
-  ### This application was made by ${data.contributers}
+  This application was made by ${data.contributers}
 
   ## Tests
   ${data.tests}
 
   ## Github
-  [GitHub link: ${data.github}](https://github.com/${data.github})
+ Here is the link to my github account [${data.github}](https://github.com/${data.github})
   
   
   ## Contact Me

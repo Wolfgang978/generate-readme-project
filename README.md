@@ -8,7 +8,7 @@
 5. [Credits](#Credits)
 6. [Tests](#Tests)
 7. [Github](#Github)
-8. [Contact Me](#Contact)
+8. [Contact Me](#Contact-Me)
 
   
 ![badge](https://img.shields.io/badge/license-unlicense-brightgreen)

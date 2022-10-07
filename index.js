@@ -55,9 +55,7 @@ const questions = [
 
 function writeToFile(data) {
   const createRead = generateMarkdown(data)
-  console.log("here")
-
-  console.log(data.appName)
+  
 
   fs.writeFile("ReadMe.md", createRead, (err) => err ? console.log("You probably messed up somewhere. Try again") : console.log("ReadMe.md created!"))
 

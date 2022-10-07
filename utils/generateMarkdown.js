@@ -5,11 +5,11 @@ function renderLicenseBadge(license) {
   } else {
     if (license[0] === "Boost Software License 1.0") {
 return `
-![badge](https://img.shields.io/badge/license-bsl-1.0-brightgreen)
+![badge](https://img.shields.io/badge/license-bsl-brightgreen)
     `
     } else if (license[0] === "GNU Affero General Public License v3.0") {
       return `
-![badge](https://img.shields.io/badge/license-agpl-3.0-brightgreen)
+![badge](https://img.shields.io/badge/license-agpl-brightgreen)
           `
     } else {
       return `
@@ -71,7 +71,7 @@ https://choosealicense.com/licenses/unlicense/
 }
 
 function renderLicenseSection(license) {
-  console.log(license)
+
   if (!license) {
     return ""
   } else {
@@ -83,12 +83,11 @@ This project is licensed by ${license}. ${renderLicenseLink(license)}
 }
 
 function generateMarkdown(data) {
-  console.log("here1")
-
-
   return `
 
   # ${data.appName}
+  ${renderLicenseBadge(data.license)}
+  
   ## Table of Contents
 1. [Description](#Description)
 2. [Install Instructions](#Install-Instructions)
@@ -99,7 +98,6 @@ function generateMarkdown(data) {
 7. [Github](#Github)
 8. [Contact Me](#Contact-Me)
 
-  ${renderLicenseBadge(data.license)}
   
   
   ## Description <a name="paragraph1"></a>
